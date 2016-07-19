@@ -16,24 +16,24 @@
       "vendor"
     ]
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "one-dark-ui"
+      "atom-dark-syntax"
     ]
   editor:
-    fontFamily: "Menlo"
+    backUpBeforeSaving: true
+    fontFamily: "Hack"
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
-  "go-plus":
-    goPath: "/Users/holman/Code/go"
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
-      "text.html.basic"
-    ]
+    tabLength: 4
+  "markdown-preview": {}
+  minimap:
+    plugins:
+      bookmarks: true
+      "find-and-replace": true
+      "git-diff": false
+      "minimap-autohide": true
+      selection: true
+  "one-dark-ui": {}
   welcome:
     showOnStartup: false
