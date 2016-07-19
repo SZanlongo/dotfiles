@@ -1,0 +1,19 @@
+################ DIRECTORIES ################
+### System ###
+
+### User ###
+dev="/opt/users/$USER/Documents/Development";
+proj="/opt/users/$USER/Documents/Development/Projects";
+down="/opt/users/$USER/Downloads";
+desk="/opt/users/$USER/Desktop";
+docs="/opt/users/$USER/Documents";
+
+### Pictures ###
+pics="/opt/users/$USER/Pictures";
+
+### Music ###
+music="/opt/users/$USER/Music";
+
+### Videos ###
+vids="/opt/users/$USER/Videos";
+
