@@ -1,0 +1,17 @@
+{
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"fade_fold_buttons": false,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"remember_open_files": true,
+	"spell_check": true,
+	"word_wrap": true
+}
