@@ -1,0 +1,21 @@
+################ DIRECTORIES ################
+### System ###
+
+### User ###
+
+
+### Documents ###
+dev="/cygdrive/C/Users/$USER/Documents/Development";
+proj="/cygdrive/C/Users/$USER/Documents/Development/Projects";
+down="/cygdrive/C/Users/$USER/Downloads";
+desk="/cygdrive/C/Users/$USER/Desktop";
+docs="/cygdrive/C/Users/$USER/Documents";
+
+### Pictures ###
+pics="/cygdrive/C/Users/$USER/Pictures";
+
+### Music ###
+music="/cygdrive/C/Users/$USER/Music";
+
+### Videos ###
+vids="/cygdrive/C/Users/$USER/Videos";
