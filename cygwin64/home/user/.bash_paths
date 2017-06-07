@@ -5,7 +5,7 @@
 
 
 ### Documents ###
-dev="/cygdrive/C/Users/$USER/Documents/Development";
+dev="/cygdrive/C/Users/$USER/Development";
 proj="/cygdrive/C/Users/$USER/Documents/Development/Projects";
 down="/cygdrive/C/Users/$USER/Downloads";
 desk="/cygdrive/C/Users/$USER/Desktop";
