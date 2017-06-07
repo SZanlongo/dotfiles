@@ -106,3 +106,7 @@ fi
 
 # Add ~/bin to path
 PATH=$HOME/bin:$PATH
+
+cd "/cygdrive/c/Users/$USER"
+
+export PS1="\[\e[36m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[36m\]\h\[\e[m\]\[\e[33m\]:\[\e[m\]\[\e[32m\]\W\[\e[m\]\[\e[35m\]\`parse_git_branch\`\[\e[m\] "
