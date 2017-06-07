@@ -13,6 +13,8 @@
 
 ### Repeat previous command with sudo ###
 alias ffs='sudo $(history -p \!\!)'
+### Reload .bashrc ###
+alias 'rbash'='. ~/.bashrc'
 
 
 
@@ -28,6 +30,8 @@ alias grep='grep --color'						# show differences in color
 alias egrep='egrep --color=auto'				# show differences in color
 alias fgrep='fgrep --color=auto'				# show differences in color
 
+alias mkdir='mkdir -pv'						# create parent directories on demand
+
 ### Shortcuts for directory listings ###
 alias ls='ls -hF --color=tty'					# classify files in color
 alias lx='ls -lXB'								# sort by extension
@@ -41,14 +45,18 @@ alias ll='ls -l'								# long list
 alias la='ls -A'								# all but . and ..
 alias l='ls -CF'
 
+alias mount='mount |column -t'					# mount command human readable
+
 
 
 ############## FILE OPERATIONS ##############
 
 ### Interactive operation ###
-alias rm='rm -i'
+#alias rm='rm -i'
+alias rm='rm -I --preserve-root'
 alias cp='cp -i'
 alias mv='mv -i'
+alias ln='ln -i'
 
 ### Remap rm to put into trash ###
 #alias tp="trash-put";
@@ -60,8 +68,28 @@ alias lg='ls -la | grep';
 
 
 
+################## SYSTEM #################
+## pass options to free ## 
+alias meminfo='free -m -l -t'
+ 
+## get top process eating memory
+alias psmem='ps auxf | sort -nr -k 4'
+alias psmem10='ps auxf | sort -nr -k 4 | head -10'
+ 
+## get top process eating cpu ##
+alias pscpu='ps auxf | sort -nr -k 3'
+alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
+ 
+## Get server cpu info ##
+alias cpuinfo='lscpu'
+
+alias top='watch "ps -W"' # pipe to grep for filtering
+
+
+
 ################# PROGRAMS #################
 
 
 
 ################# FUN STUFF #################
+
